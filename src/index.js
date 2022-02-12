@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { functionOneOne } from './first-set';
+import * as secondFunctions from './second-set';
+
+functionOneOne();
+
+secondFunctions.functionTwoOne();
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
